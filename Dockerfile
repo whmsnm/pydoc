@@ -1,1 +1,1 @@
-FROM pull debian:11
+FROM debian:11
