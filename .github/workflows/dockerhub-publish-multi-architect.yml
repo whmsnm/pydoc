@@ -48,4 +48,4 @@ jobs:
           file: ./Dockerfile
           platforms: linux/amd64, linux/arm64, linux/arm/v7, linux/arm/v8
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/ deb11cleanimagemultiarch:latest, ${{ secrets.DOCKERHUB_USERNAME }}/dockerfordotnetapi:${{ github.run_number }}
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/deb11cleanimagemultiarch:latest, ${{ secrets.DOCKERHUB_USERNAME }}/dockerfordotnetapi:${{ github.run_number }}
