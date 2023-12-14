@@ -1,4 +1,4 @@
-name: create and publish docker image
+name: github create and publish docker image
     
 on:
   workflow_dispatch:
