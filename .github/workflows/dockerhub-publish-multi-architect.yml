@@ -2,7 +2,12 @@ name: create and push to dockerhub
 
 on:
   workflow_dispatch:
-  
+  push:
+    branches:
+      - 'main'
+    pull_request:
+      branches:
+        - 'main'
 
 jobs:
   docker:
