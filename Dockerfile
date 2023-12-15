@@ -1,1 +1,1 @@
-FROM docker pull anasty17/mltb
+FROM anasty17/mltb
