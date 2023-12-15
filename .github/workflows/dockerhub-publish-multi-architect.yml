@@ -19,8 +19,7 @@ on:
       
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
-env:
-  IMAGE_NAME: ${{ github.repository }}
+
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
  docker:
@@ -49,4 +48,4 @@ jobs:
           file: ./Dockerfile
           platforms: linux/amd64, linux/arm64, linux/arm/v7, linux/arm/v8
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/${{ env.IMAGE_NAME }}:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/anasty17beforejdownloaderfinal:latest
