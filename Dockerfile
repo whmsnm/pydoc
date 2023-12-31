@@ -17,4 +17,5 @@ RUN apt install unzip
 RUN apt install wget
 
 COPY requirements.txt requirements.txt
+RUN chmod +x requirements.txt 
 RUN pip install --no-cache-dir -r requirements.txt
