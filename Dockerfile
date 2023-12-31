@@ -18,4 +18,4 @@ RUN apt install wget
 
 COPY requirements.txt .
 
-RUN RUN pip install -r requirements.txt
+RUN RUN pip install --no-cache-dir -r requirements.txt
