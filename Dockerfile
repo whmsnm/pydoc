@@ -16,6 +16,6 @@ RUN apt install sudo
 RUN apt install unzip
 RUN apt install wget
 
-COPY requirements.txt /
+COPY requirements.txt .
 
 RUN RUN pip install -r requirements.txt
