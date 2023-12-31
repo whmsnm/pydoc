@@ -16,6 +16,5 @@ RUN apt install sudo
 RUN apt install unzip
 RUN apt install wget
 
-COPY requirements.txt .
-
-RUN RUN pip install --no-cache-dir -r requirements.txt
+COPY requirements.txt requirements.txt
+RUN pip3 install -r requirements.txt
