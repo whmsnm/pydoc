@@ -16,12 +16,6 @@ RUN apt install sudo
 RUN apt install unzip
 RUN apt install wget
 
-RUN pip install requests
-RUN pip install selenium
-RUN pip install ipapi
-RUN pip install undetected-chromedriver
-RUN pip install selenium-wire
-RUN pip install pandas
-RUN pip install numpy
-RUN pip install setuptools==69.0.3
-RUN pip install psutil
+COPY requirements.txt /
+
+RUN RUN pip install -r requirements.txt
