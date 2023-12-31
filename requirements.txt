@@ -1,0 +1,9 @@
+requests
+selenium # not directly required, pinned by Snyk to avoid a vulnerability
+ipapi
+undetected-chromedriver
+selenium-wire
+pandas
+numpy # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools==69.0.3 # not directly required, pinned by Snyk to avoid a vulnerability
+psutil
