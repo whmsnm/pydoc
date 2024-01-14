@@ -3,3 +3,7 @@ selenium==4.9.0
 ipapi
 undetected-chromedriver
 selenium-wire
+pandas
+numpy>=1.22.2
+setuptools>=69.0.2
+psutil
