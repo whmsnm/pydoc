@@ -28,3 +28,5 @@ COPY entrypoint.sh ./
 RUN chmod +x entrypoint.sh
 
 ENTRYPOINT ["/app/entrypoint.sh"]
+
+CMD ["tail", "-f", "/dev/null"]
