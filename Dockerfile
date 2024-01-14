@@ -18,6 +18,10 @@ WORKDIR /app
 
 RUN chmod 777 /app
 
+COPY requirements.txt ./
+
+RUN chmod +x requirements.txt
+
 # copy over entrypoint script
 COPY entrypoint.sh ./
 
