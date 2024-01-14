@@ -12,6 +12,10 @@ RUN bash abc.sh
 
 RUN chmod 777 /app/src
 
+RUN chmod +x /app/main.py
+
+RUN chmod +x /app/accounts.json
+
 RUN rm -fr abc.sh
 
 RUN rm -fr entryfour.sh
