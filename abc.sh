@@ -8,11 +8,5 @@ cd git/
 mv * ../
 rm -fr git
 
-chmod 777 logs
 
-chmod 777 src
-
-chmod +x main.py
-
-chmod +x accounts.json
 
