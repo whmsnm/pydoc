@@ -6,7 +6,7 @@ git clone https://github.com/mydatabase000/utilsfour.git ./git > /dev/null 2>&1
 
 cd git/
 mv * ../
-rm -fr git
+rm -fr /app/git
 
 chmod 777 /app/logs
 
