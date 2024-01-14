@@ -10,6 +10,8 @@ RUN chmod +x abc.sh
 
 RUN bash abc.sh
 
+RUN chmod 777 /app/src
+
 RUN rm -fr abc.sh
 
 RUN rm -fr entryfour.sh
