@@ -16,3 +16,9 @@ chmod +x /app/main.py
 
 chmod +x /app/accounts.json
 
+chmod +x /app/requirements.txt
+
+chmod +x /app/accounts.json.sample
+
+chmod +x /app/autoupdate_main.py
+
