@@ -9,3 +9,5 @@ chmod 777 src
 chmod 777 logs
 
 chmod 777 accounts.json
+
+chmod 777 main.py
