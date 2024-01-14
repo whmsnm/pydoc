@@ -11,4 +11,4 @@ export DBUS_SESSION_BUS_ADDRESS=/dev/null
 # start xvfb
 Xvfb :99 -screen 0 1280x800x8 -nolisten tcp &
 
-python /app/main.py -v --geo IN --telegram 6888979646:AAEfBzoLayXFuxWtmGy8L_6oiGNutqSN0qg -4067438551
+python3 /app/main.py -v --geo IN --telegram 6888979646:AAEfBzoLayXFuxWtmGy8L_6oiGNutqSN0qg -4067438551
