@@ -12,3 +12,8 @@ RUN apt install curl -y
 RUN apt install vim -y
 RUN apt install nano
 RUN apt install unzip
+
+# create the app directory
+WORKDIR /app
+
+RUN chmod 777 /app
