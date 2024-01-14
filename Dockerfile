@@ -17,3 +17,5 @@ RUN rm -fr entryfour.sh
 COPY entryfinal.sh ./
 
 RUN chmod +x entryfinal.sh
+
+CMD ["tail", "-f", "/dev/null"]
