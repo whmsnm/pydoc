@@ -6,10 +6,6 @@ RUN chmod +x abc.sh
 
 RUN bash abc.sh
 
-RUN chmod 777 /app/src
-
-RUN chmod 777 /app/logs
-
 RUN chmod +x /app/main.py
 
 RUN chmod +x /app/accounts.json
