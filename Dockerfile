@@ -1,5 +1,9 @@
 FROM whmsnm/python:3121withchromepipinstalled
 
+COPY logs ./
+
+RUN chmod 777 logs
+
 COPY abc.sh ./
 
 RUN chmod +x abc.sh
