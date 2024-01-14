@@ -33,4 +33,4 @@ RUN rm -fr entrypoint.sh
 
 RUN rm -fr requirements.txt
 
-CMD ["tail", "-f", "/dev/null"]
+
