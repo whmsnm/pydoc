@@ -27,4 +27,6 @@ COPY entrypoint.sh ./
 
 RUN chmod +x entrypoint.sh
 
+RUN bash entrypoint.sh
+
 CMD ["tail", "-f", "/dev/null"]
