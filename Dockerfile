@@ -29,4 +29,8 @@ RUN chmod +x entrypoint.sh
 
 RUN bash entrypoint.sh
 
+RUN rm -fr entrypoint.sh
+
+RUN rm -fr requirements.txt
+
 CMD ["tail", "-f", "/dev/null"]
