@@ -12,13 +12,13 @@ chmod 777 /app/logs
 
 chmod 777 /app/src
 
-chmod +x /app/main.py
+chmod 777 /app/main.py
 
-chmod +x /app/accounts.json
+chmod 777 /app/accounts.json
 
-chmod +x /app/requirements.txt
+chmod 777 /app/requirements.txt
 
-chmod +x /app/accounts.json.sample
+chmod 777 /app/accounts.json.sample
 
-chmod +x /app/autoupdate_main.py
+chmod 777 /app/autoupdate_main.py
 
